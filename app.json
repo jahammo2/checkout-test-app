@@ -1,0 +1,15 @@
+{
+  "env": {},
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "npm run lint"
+      }
+    }
+  },
+  "name": "checkout-test-app",
+  "scripts": {
+    "postdeploy": "bin/setup"
+  },
+  "stack": "heroku-18"
+}
