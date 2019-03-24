@@ -1,0 +1,18 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "description": "",
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "checkout-test-app",
+  "scripts": {
+    "postdeploy": "bin/setup, npm run test"
+  },
+  "stack": "heroku-18"
+}
