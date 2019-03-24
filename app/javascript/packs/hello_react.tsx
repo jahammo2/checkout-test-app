@@ -20,7 +20,7 @@ Hello.propTypes = {
 
 document.addEventListener('DOMContentLoaded', (): void => {
   ReactDOM.render(
-    <Hello name="React" />,
+    <Hello name="React Foo" />,
     document.body.appendChild(document.createElement('div')),
   )
 })
