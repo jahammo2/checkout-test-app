@@ -1,4 +1,7 @@
 {
+  "addons": [
+    "heroku-postgresql"
+  ],
   "env": {},
   "environments": {
     "test": {
