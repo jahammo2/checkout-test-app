@@ -3,6 +3,16 @@
     "heroku-postgresql"
   ],
   "env": {},
+  "environments": {
+    "test": {
+      "env": {
+        "SECRET_KEY_BASE": "f9257037045aef6c2cf97c74d5ba5f0330808d16efb8d04e5c7c8b339c5036c38ad7155839b19a5bff477082182103f9006f63d84ab9915ae8afae8ec91c02df"
+      },
+      "scripts": {
+        "postdeploy": "bin/rails db:schema:load && bin/rails restart"
+      }
+    }
+  },
   "name": "checkout-test-app",
   "scripts": {
     "postdeploy": "bin/setup"
