@@ -6,7 +6,7 @@
   "environments": {
     "test": {
       "scripts": {
-        "test-setup": "npm run lint"
+        "test-setup": ["cp config/database.example.yml config/database.yml", "cp config/secrets.example.yml config/secrets.yml", "bin/setup"]
       }
     }
   },
