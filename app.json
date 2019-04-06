@@ -1,0 +1,8 @@
+{
+  "env": {},
+  "name": "checkout-test-app",
+  "scripts": {
+    "postdeploy": "bin/rails db:schema:load && bin/rails restart"
+  },
+  "stack": "heroku-18"
+}
