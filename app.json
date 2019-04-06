@@ -1,4 +1,7 @@
 {
+  "addons": [
+    "heroku-postgresql"
+  ],
   "env": {},
   "name": "checkout-test-app",
   "scripts": {
