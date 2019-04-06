@@ -1,4 +1,7 @@
 language: ruby
+before_script:
+  - nvm install node
+  - npm install
 script:
   - bundle exec rubocop
   - bundle exec rspec
